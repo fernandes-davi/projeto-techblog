@@ -1,0 +1,140 @@
+@charset "utf-8";
+/*** Formatações Gerais ***/
+
+@font-face {
+    font-family: "Arial Nova";
+    src: url(/font/ArialNova.woff);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1em;
+    font-family: "Arial Nova", sans-serif;
+    background: #e4e4e4;   
+}
+
+/*** Formatação Header ***/
+
+#header {
+    background-image: linear-gradient(to top, #f7b600, #fdc62f);
+    padding: 10px;
+    text-align: center;    
+}
+#logo {
+    padding: 15px;
+}
+#logo h1 {
+    color: #4e4e4e;
+    font-size: 3.0em;
+}
+.branco {
+    color: white;
+}
+#menu {
+    padding: 10px;
+    text-align: center;
+}
+#menu a {
+    text-decoration: none;
+    font-weight: bold;
+}
+#menu a:link, #menu a:visited {
+    color: #FFF;
+    padding: 8px 15px;
+}
+#menu a:hover {
+    color: #f7b600;
+    background-color: #FFF;
+    border-radius: 10px;
+}
+
+
+/*** Formatação Main ***/
+
+main {
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+}
+main h2 {
+    color: #f7b600;
+}
+main a, a:visited {
+    color: #f7b600;
+
+}
+main a:hover {
+    text-decoration: none;
+
+}
+#area-post {
+    width: 660px;
+    float: left;
+    background: white;
+    padding-bottom: 20px;
+
+}
+#area-lateral {
+    width: 240px;
+    float: right;
+    background: white;
+}
+#area-lateral form input{
+    width: 192px;
+    margin-top: 5px;
+    margin-left: 1px;
+    margin-bottom: 15px;
+}
+.post {
+    padding: 20px;
+    margin-bottom: 20px;
+    
+}
+.post p {
+    padding-top: 3px;
+}
+.data-post {
+    font-size: 0.9em;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;  
+}
+.conteudo-lateral{
+    padding: 10px;
+    margin-bottom: 15px;
+}
+.conteudo-lateral h3 {
+    color: #565656;
+    background: #ccc;
+    padding: 5px;
+}
+.text-lateral {
+    font-size: 0.8em;
+    padding: 5px;
+}
+.text-lateral ul {
+    list-style-position: inside;
+    color: #f7b600;
+}
+#list {
+    font-size: 1.1em;
+    padding: 5px;
+    padding-top: 5px;
+}
+#list a {
+    text-decoration: none;
+}
+
+/*** Formatação Footer ***/
+
+footer {
+    clear: both;
+    background: #f7b600;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 5px;
+}
